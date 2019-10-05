@@ -1,0 +1,15 @@
+{
+  "name": "ffmpegstreamer",
+  "version": "1.0.0",
+  "description": "A utility script to clip an audio file and stream to an s3 bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.541.0",
+    "uuid": "^3.3.3"
+  }
+}

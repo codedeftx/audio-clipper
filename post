@@ -1,0 +1,8 @@
+curl -d '{
+  "start" : 10
+  , "end" : 100
+  , "input" : "https://cdn.transistor.fm/file/transistor/m/shows/15/dde730414a694ead8bdd082ef0465d9a.mp3"
+  , "output" : "myFile.mp3"
+  }'\
+  -H "Content-Type: application/json" \
+  -X POST http://localhost:8888
